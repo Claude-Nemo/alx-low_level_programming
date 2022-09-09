@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to the variable n each time it is executed and prints whether the number entered is positive or negative
- * return - 0 
+ * main - checks if number is positive, negative or a zero
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -14,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
 	{
-		printf("%d is negative \n", n);
+		printf("%d is negative\n", n);
 	}
 	else if (n == 0)
 	{
