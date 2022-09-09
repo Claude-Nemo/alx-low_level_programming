@@ -7,9 +7,9 @@
 int main(void)
 {
 	int i;
-	char array[26] = "abcdfghijklmnoprstuvwxyz";
+	char array[24] = "abcdfghijklmnoprstuvwxyz";
 
-	for (i = 0; i <= 25; i++)
+	for (i = 0; i <= 23; i++)
 	{
 		putchar(array[i]);
 	}
