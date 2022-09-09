@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print the alphabet
+ * main - print the alphabet except e, q
  *
  * Return: Always 0 (Success)
 */
