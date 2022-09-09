@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main - assigns a random number to the variable n each time it is executed
- *prints whether the number entered is positive or negative
+/**
+ * main - assigns a random number to the variable n each time it is executed and prints whether the number entered is positive or negative
+ * return - 0 
  */
 int main(void)
 {
@@ -12,10 +12,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	if (n < 0)
 	{
-		printf("%d is a negative number\n", n);
+		printf("%d is negative \n", n);
 	}
 	else if (n == 0)
 	{
@@ -23,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is a positive number\n", n);
+		printf("%d is positive\n", n);
 	}
 	return (0);
 }
