@@ -2,11 +2,11 @@
 /**
  * _isalpha - Entry point
  * @c: input ascii code argument
- * Return: 1 for uppercase, 0 otherwise
+ * Return: 1 for any letters, 0 otherwise
  */
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 90)
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 		return (1);
 	}
